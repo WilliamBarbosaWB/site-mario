@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logo-mario-bros {
+    height: 200px;
+}
+
+
+button {
+    background-color: #E0170F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 45px;
+}
+
+.image-marioeluigi {
+    width: 500px;
+}
+
+/* Alplicar o flex no body*/
+
+body {
+    height: 100vh;    
+}
+
+.content {
+    width: 40%;
+}
+
+.video {
+    position: fixed;
+    z-index: -1;
+
+    top: 0;
+    left: 0;
+}
+
+video {
+    width: 100vw;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
